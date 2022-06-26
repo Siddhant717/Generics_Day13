@@ -6,9 +6,9 @@ namespace GenericsPracticeProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Maximum Float Number is- ");
-            double answer = MaximumNumberCheck.MaximumFloatNumber(120.34, 225.67, 80.32);
-            Console.WriteLine(answer);
+            Console.WriteLine("Maximum String is- ");
+            string  stringanswer = MaximumNumberCheck.MaximumString("20","45","72");
+            Console.WriteLine(stringanswer);
         }
     }
 }

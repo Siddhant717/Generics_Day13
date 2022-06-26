@@ -9,22 +9,22 @@ namespace GenericsPracticeProblem
     public class MaximumNumberCheck
     {
         /// <summary>
-        /// This method is created for max float number
+        /// This method is created for max string number
         /// </summary>
 
-        public static double MaximumFloatNumber(double firstvalue, double secondvalue, double thirdvalue)
+        public static string MaximumString(string firststring, string secondstring, string thirdstring)
         {
-            if (firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) > 0)
+            if (firststring.CompareTo(secondstring) > 0 && firststring.CompareTo(thirdstring) > 0)
             {
-                return firstvalue;                                                                              //UC2
+                return firststring;                                                                              //UC3
             }
-            if (secondvalue.CompareTo(firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) > 0)
+            if (secondstring.CompareTo(firststring) > 0 && secondstring.CompareTo(thirdstring) > 0)
             {
-                return secondvalue;
+                return secondstring;
             }
-            if (thirdvalue.CompareTo(firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) > 0)
+            if (thirdstring.CompareTo(firststring) > 0 && thirdstring.CompareTo(secondstring) > 0)
             {
-                return thirdvalue;
+                return thirdstring;
             }
             throw new Exception("firstnumber,secondnumber,thirdnumber are same");
 
