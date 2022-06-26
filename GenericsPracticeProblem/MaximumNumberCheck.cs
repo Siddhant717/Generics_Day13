@@ -11,7 +11,8 @@ namespace GenericsPracticeProblem
         /// <summary>
         /// This method is created for max int number
         /// </summary>
-            public static int MaximumIntegerNumber(int firstvalue, int secondvalue, int thirdvalue)
+            
+        public static int MaximumIntegerNumber(int firstvalue, int secondvalue, int thirdvalue)
         {
             if (firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) > 0)
             {
@@ -25,7 +26,7 @@ namespace GenericsPracticeProblem
             {
                 return thirdvalue;
             }
-            throw new Exception("firstnumber,secondnumber,thirdnumber are same");
+            throw new Exception("firstnumber,secondnumber,thirdnumber are same.");
 
         }
     }

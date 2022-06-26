@@ -6,8 +6,8 @@ namespace GenericsPracticeProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Find maximum number");
-            int answer = MaximumNumberCheck.MaximumIntegerNumber(223, 323, 443);                    
+            Console.WriteLine("Find maximum number-");
+            int answer = MaximumNumberCheck.MaximumIntegerNumber(220, 320, 440);
             Console.WriteLine(answer);
         }
     }
