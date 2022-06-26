@@ -6,8 +6,8 @@ namespace GenericsPracticeProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Find maximum number-");
-            int answer = MaximumNumberCheck.MaximumIntegerNumber(220, 320, 440);
+            Console.WriteLine("Maximum Float Number is- ");
+            double answer = MaximumNumberCheck.MaximumFloatNumber(120.34, 225.67, 80.32);
             Console.WriteLine(answer);
         }
     }

@@ -9,14 +9,14 @@ namespace GenericsPracticeProblem
     public class MaximumNumberCheck
     {
         /// <summary>
-        /// This method is created for max int number
+        /// This method is created for max float number
         /// </summary>
-            
-        public static int MaximumIntegerNumber(int firstvalue, int secondvalue, int thirdvalue)
+
+        public static double MaximumFloatNumber(double firstvalue, double secondvalue, double thirdvalue)
         {
             if (firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) > 0)
             {
-                return firstvalue;                                                                         
+                return firstvalue;                                                                              //UC2
             }
             if (secondvalue.CompareTo(firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) > 0)
             {
@@ -26,7 +26,7 @@ namespace GenericsPracticeProblem
             {
                 return thirdvalue;
             }
-            throw new Exception("firstnumber,secondnumber,thirdnumber are same.");
+            throw new Exception("firstnumber,secondnumber,thirdnumber are same");
 
         }
     }
