@@ -11,7 +11,7 @@ namespace GenericsPracticeProblem
         public T[] value;
 
         /// <summary>
-        /// This method is created for initialize the constructor of instance variable
+        /// This method is created for initialize the constructor of instance variable.
         /// </summary>
         /// <param name="value"></param>
         public GenericsMaximum(T[] value)
@@ -19,7 +19,7 @@ namespace GenericsPracticeProblem
             this.value = value;
         }
         /// <summary>
-        /// This method is created for sorting the values
+        /// This method is created for sorting the values.
         /// </summary>
         /// <param name="value"></param>
         public T[] Sort(T[] values)
@@ -29,7 +29,7 @@ namespace GenericsPracticeProblem
         }
         
         /// <summary>
-        /// This method created for finding max for given type
+        /// This method created for finding max for given type.
         /// </summary>
         /// <param name="values"></param>
         /// <returns></returns>
@@ -40,7 +40,7 @@ namespace GenericsPracticeProblem
         }
 
         /// <summary>
-        /// This method created calling maxvalue method
+        /// This method created calling maxvalue method.
         /// </summary>
         /// <returns></returns>
         public T MaxMethod()
@@ -50,7 +50,7 @@ namespace GenericsPracticeProblem
         }
         
         /// <summary>
-        /// This method is printing max generic value
+        /// This method is printing max generic value.
         /// </summary>
         public void PrintMaxValue()
         {
